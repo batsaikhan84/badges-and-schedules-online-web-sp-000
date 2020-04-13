@@ -9,5 +9,6 @@ def assign_rooms(name_list)
   room = 1
   while room < 8
     "Hello, #{name_list[room-1]}! You'll be assigned to room #{room}!"
+    room += 1
   end
 end
