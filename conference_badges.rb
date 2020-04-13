@@ -19,3 +19,9 @@ def assign_rooms(name_list)
   return new_name_list
 end
 
+def printer
+  batch_badge_creator.each do |array|
+    puts array
+  end
+end
+
