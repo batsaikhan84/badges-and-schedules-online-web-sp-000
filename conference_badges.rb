@@ -1,7 +1,12 @@
 # Write your code here.
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
+
 def batch_badge_creator(name_list)
+  new_name_list = []
   name_list.each do |name|
-    return "Hello, my name is #{name}"
+    return new_name_list.push("Hello, my name is #{name}")
   end
 end
 
