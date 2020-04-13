@@ -2,6 +2,7 @@
 def batch_badge_creator(name_list)
   name_list.each do |name|
     return "Hello, my name is #{name}"
+  end
 end
 
 def assign_rooms(name_list)
