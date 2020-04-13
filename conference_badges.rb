@@ -12,9 +12,15 @@ def batch_badge_creator(name_list)
 end
 
 def assign_rooms(name_list)
+  new_name_list = []
   room = 1
   while room < 8
-    "Hello, #{name_list[room-1]}! You'll be assigned to room #{room}!"
+    new_name_list << "Hello, #{name_list[room-1]}! You'll be assigned to room #{room}!"
     room += 1
   end
+  return new_name_list
+end
+
+def printer
+  
 end
