@@ -13,10 +13,8 @@ end
 
 def assign_rooms(name_list)
   new_name_list = []
-  room = 1
-  while room < 8
-    new_name_list << "Hello, #{name_list[room-1]}! You'll be assigned to room #{room}!"
-    room += 1
+  name_list.each do |name|
+    new_name_list << "Hello, #{name}! You'll be assigned to room #{name_list.index[name]}+1!"
   end
   return new_name_list
 end
